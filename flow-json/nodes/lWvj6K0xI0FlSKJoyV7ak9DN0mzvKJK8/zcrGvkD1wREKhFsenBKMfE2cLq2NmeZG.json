@@ -1,0 +1,340 @@
+[
+  {
+    "id": "1711177394332",
+    "data": {
+      "data": "data",
+      "source": false,
+      "state": {
+        "dialog": true,
+        "dialogType": "TEXT",
+        "options": [
+          "{{OTHER_MSG}}"
+        ],
+        "text": "{{OTHER_MSG}}"
+      }
+    },
+    "position": {
+      "x": -85.20858996378053,
+      "y": 137
+    },
+    "type": "AskQuestionMap",
+    "state": {
+      "dialog": true,
+      "dialogType": "TEXT",
+      "options": [
+        "{{OTHER_MSG}}"
+      ],
+      "text": "{{OTHER_MSG}}"
+    },
+    "nodeType": "QUESTION-TEXT",
+    "keyword": [
+      "{{OTHER_MSG}}"
+    ],
+    "msgContent": {
+      "type": "text",
+      "text": {
+        "preview_url": true,
+        "body": "{{OTHER_MSG}}"
+      }
+    },
+    "width": 261,
+    "height": 213,
+    "selected": false,
+    "positionAbsolute": {
+      "x": -85.20858996378053,
+      "y": 137
+    },
+    "dragging": false
+  },
+  {
+    "id": "1711177430081",
+    "data": {
+      "data": "data",
+      "source": false,
+      "state": {
+        "dialog": true,
+        "dialogType": "BUTTON",
+        "options": [
+          "Products",
+          "Tracking"
+        ],
+        "text": "Thank you for messaging us how can we help you?",
+        "option1": ""
+      }
+    },
+    "position": {
+      "x": 303.19971826654637,
+      "y": 57.422836235692216
+    },
+    "type": "AskQuestionMap",
+    "state": {
+      "dialog": true,
+      "dialogType": "BUTTON",
+      "options": [
+        "Products",
+        "Tracking"
+      ],
+      "text": "Thank you for messaging us how can we help you?",
+      "option1": ""
+    },
+    "nodeType": "QUESTION-BUTTON",
+    "keyword": [
+      "Products",
+      "Tracking"
+    ],
+    "msgContent": {
+      "type": "interactive",
+      "interactive": {
+        "type": "button",
+        "body": {
+          "text": "Thank you for messaging us how can we help you?"
+        },
+        "action": {
+          "buttons": [
+            {
+              "type": "reply",
+              "reply": {
+                "id": 0,
+                "title": "Products"
+              }
+            },
+            {
+              "type": "reply",
+              "reply": {
+                "id": 1,
+                "title": "Tracking"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "width": 248,
+    "height": 257,
+    "selected": false,
+    "positionAbsolute": {
+      "x": 303.19971826654637,
+      "y": 57.422836235692216
+    },
+    "dragging": false
+  },
+  {
+    "id": "1711178361899",
+    "data": {
+      "data": "data",
+      "source": false,
+      "state": {
+        "dialog": true,
+        "dialogType": "BUTTON",
+        "options": [
+          "Buy new item",
+          "cancel order"
+        ],
+        "text": "Your order is on the way with this ID:- 12345",
+        "option1": ""
+      }
+    },
+    "position": {
+      "x": 515.7918070340003,
+      "y": 379.3044780165817
+    },
+    "type": "AskQuestionMap",
+    "state": {
+      "dialog": true,
+      "dialogType": "BUTTON",
+      "options": [
+        "Buy new item",
+        "cancel order"
+      ],
+      "text": "Your order is on the way with this ID:- 12345",
+      "option1": ""
+    },
+    "nodeType": "QUESTION-BUTTON",
+    "keyword": [
+      "Buy new item",
+      "cancel order"
+    ],
+    "msgContent": {
+      "type": "interactive",
+      "interactive": {
+        "type": "button",
+        "body": {
+          "text": "Your order is on the way with this ID:- 12345"
+        },
+        "action": {
+          "buttons": [
+            {
+              "type": "reply",
+              "reply": {
+                "id": 0,
+                "title": "Buy new item"
+              }
+            },
+            {
+              "type": "reply",
+              "reply": {
+                "id": 1,
+                "title": "cancel order"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "width": 248,
+    "height": 257,
+    "selected": false,
+    "positionAbsolute": {
+      "x": 515.7918070340003,
+      "y": 379.3044780165817
+    },
+    "dragging": false
+  },
+  {
+    "id": "1711178408025",
+    "data": {
+      "data": "data",
+      "source": false,
+      "state": {
+        "dialog": true,
+        "dialogType": "LIST",
+        "options": []
+      }
+    },
+    "position": {
+      "x": 859.0851357279439,
+      "y": -40.00792948158045
+    },
+    "type": "AskQuestionMap",
+    "state": {
+      "dialog": true,
+      "dialogType": "LIST",
+      "options": []
+    },
+    "nodeType": "QUESTION-LIST",
+    "keyword": [
+      "pro1",
+      "pro2",
+      "pro3",
+      "pro4",
+      "pro5",
+      "pro6"
+    ],
+    "msgContent": {
+      "type": "interactive",
+      "interactive": {
+        "type": "list",
+        "header": {
+          "type": "text",
+          "text": "product list"
+        },
+        "body": {
+          "text": "here are the list of hte products"
+        },
+        "footer": {
+          "text": "https://codeyon.com"
+        },
+        "action": {
+          "button": "Menu Here",
+          "sections": [
+            {
+              "title": "list 1",
+              "rows": [
+                {
+                  "id": 1711178395667,
+                  "title": "pro1",
+                  "description": ""
+                },
+                {
+                  "id": 1711178395668,
+                  "title": "pro2",
+                  "description": ""
+                },
+                {
+                  "id": 1711178395669,
+                  "title": "pro3",
+                  "description": ""
+                }
+              ]
+            },
+            {
+              "title": "lis 2",
+              "rows": [
+                {
+                  "id": 1711178407416,
+                  "title": "pro4",
+                  "description": ""
+                },
+                {
+                  "id": 1711178407417,
+                  "title": "pro5",
+                  "description": ""
+                },
+                {
+                  "id": 1711178407418,
+                  "title": "pro6",
+                  "description": ""
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "width": 229,
+    "height": 428,
+    "selected": false,
+    "dragging": false,
+    "positionAbsolute": {
+      "x": 859.0851357279439,
+      "y": -40.00792948158045
+    }
+  },
+  {
+    "id": "1711178478412",
+    "data": {
+      "data": "data",
+      "source": false,
+      "state": {
+        "dialog": true,
+        "dialogType": "IMAGE",
+        "options": [
+          "cance"
+        ],
+        "option1": ""
+      }
+    },
+    "position": {
+      "x": 1182.9713998077357,
+      "y": 181.97071201129813
+    },
+    "type": "AskQuestionMap",
+    "state": {
+      "dialog": true,
+      "dialogType": "IMAGE",
+      "options": [
+        "cance"
+      ],
+      "option1": ""
+    },
+    "nodeType": "QUESTION-IMAGE",
+    "keyword": [
+      "Your product was canceled :("
+    ],
+    "msgContent": {
+      "type": "image",
+      "image": {
+        "link": "https://wapi.alltool.info/media/hUOx7TiOFsXabudBHGH9epAZVT1bT0Eb.png",
+        "caption": "Your product was canceled :("
+      }
+    },
+    "width": 300,
+    "height": 488,
+    "selected": false,
+    "positionAbsolute": {
+      "x": 1182.9713998077357,
+      "y": 181.97071201129813
+    },
+    "dragging": false
+  }
+]

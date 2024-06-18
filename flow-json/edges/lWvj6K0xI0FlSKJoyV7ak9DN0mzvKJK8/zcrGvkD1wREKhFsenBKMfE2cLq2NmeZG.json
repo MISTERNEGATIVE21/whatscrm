@@ -1,0 +1,58 @@
+[
+  {
+    "source": "1711177394332",
+    "sourceHandle": "{{OTHER_MSG}}",
+    "target": "1711177430081",
+    "targetHandle": "1711177430081_target",
+    "id": "reactflow__edge-1711177394332{{OTHER_MSG}}-17111774300811711177430081_target"
+  },
+  {
+    "source": "1711177430081",
+    "sourceHandle": "Products",
+    "target": "1711177491750",
+    "targetHandle": "1711177491750_target",
+    "id": "reactflow__edge-1711177430081Products-17111774917501711177491750_target"
+  },
+  {
+    "source": "1711177491750",
+    "sourceHandle": "Thanks",
+    "target": "1711178054510",
+    "targetHandle": "1711178054510_target",
+    "id": "reactflow__edge-1711177491750Thanks-17111780545101711178054510_target"
+  },
+  {
+    "source": "1711177430081",
+    "sourceHandle": "Tracking",
+    "target": "1711178361899",
+    "targetHandle": "1711178361899_target",
+    "id": "reactflow__edge-1711177430081Tracking-17111783618991711178361899_target"
+  },
+  {
+    "source": "1711178361899",
+    "sourceHandle": "Buy new item",
+    "target": "1711178408025",
+    "targetHandle": "1711178408025_target",
+    "id": "reactflow__edge-1711178361899Buy new item-17111784080251711178408025_target"
+  },
+  {
+    "source": "1711178361899",
+    "sourceHandle": "cancel order",
+    "target": "1711178478412",
+    "targetHandle": "1711178478412_target",
+    "id": "reactflow__edge-1711178361899cancel order-17111784784121711178478412_target"
+  },
+  {
+    "source": "1711177430081",
+    "sourceHandle": "Products",
+    "target": "1711178408025",
+    "targetHandle": "1711178408025_target",
+    "id": "reactflow__edge-1711177430081Products-17111784080251711178408025_target"
+  },
+  {
+    "source": "1711177430081",
+    "sourceHandle": "Products",
+    "target": "1711178478412",
+    "targetHandle": "1711178478412_target",
+    "id": "reactflow__edge-1711177430081Products-17111784784121711178478412_target"
+  }
+]
